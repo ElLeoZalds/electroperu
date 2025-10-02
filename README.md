@@ -1,7 +1,7 @@
 # Procedimientos
 
 1. Clonar repositorio
-   git clone https://..
+   git clone [https://..](https://github.com/ElLeoZalds/electroperu.git)
 
 2. Restaurar la Base de Datos
 
