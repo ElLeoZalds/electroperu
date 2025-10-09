@@ -1,12 +1,20 @@
 //DESERIALIZAR ARREGLOS
+<<<<<<< HEAD
 const amigos = ["Juan", "Carlos", "María"]
 const [data1] = amigos
 const [,data2] = amigos
 const [,,data3] = amigos
+=======
+const amigos = ["Juan", "Carlos", "María"]; //CON COMAS?
+const [data1] = amigos;
+const [, data2] = amigos;
+const [, , data3] = amigos;
+>>>>>>> 461d82c3d32cf3d810045bbbc92e79302a6a7eff
 
 const apps = [
   ["VSCode", "Xampp", "AndroidStudio"],
   ["Photoshop", "Illustrator", "Premier"],
+<<<<<<< HEAD
   ["Excel", "PowerBI", "SAP"]
 ]
 
@@ -34,3 +42,30 @@ const infoCarrera = SENATI.carrera
 */
 
 console.log(carrera)
+=======
+  ["Excel", "PowerBI", "SAP"],
+];
+
+const [appDev] = apps;
+const [, appDesign] = apps;
+const [, , appAdmin] = apps;
+
+//console.log(appDev)
+//console.log(appAdmin)
+//console.log(appDesign)
+
+//DESEREALIZACIÓN DE OBJETOS
+const SENATI = {
+  zonal: "Ica Ayacucho",
+  sede: "UCP Chincha",
+  carrera: "Ingeniería de Software IA",
+};
+
+const { zonal, sede, carrera } = SENATI;
+
+//const infoZonal = SENATI.zonal;
+//const infoSede = SENATI.sede;
+//const infoCarrera = SENATI.carrera;
+
+console.log(carrera);
+>>>>>>> 461d82c3d32cf3d810045bbbc92e79302a6a7eff

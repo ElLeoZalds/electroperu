@@ -1,15 +1,28 @@
 {
   "name": "electroperu",
   "version": "1.0.0",
+<<<<<<< HEAD
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+>>>>>>> 461d82c3d32cf3d810045bbbc92e79302a6a7eff
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "description": "",
   "dependencies": {
+=======
+  "dependencies": {
+    "cord": "^1.0.1",
+>>>>>>> 461d82c3d32cf3d810045bbbc92e79302a6a7eff
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
