@@ -74,4 +74,3 @@ Luego, inicia el servidor con:
 
 
 nodemon server
->>>>>>> 461d82c3d32cf3d810045bbbc92e79302a6a7eff
